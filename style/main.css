@@ -314,43 +314,27 @@ hr {
     font-size: 0px; }
   .tile.tile-2 .tile-inner {
     background: url(images/emine.png);
-	background-position:center;
-
-	background-repeat:no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: url(images/gonul.png);
-	background-position:center; 
-	background-repeat:no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: url(images/ozge.png);
-	background-position:center; 
-	background-repeat:no-repeat;}
-	
+    background: url(images/ozge.png);}
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-	background: url(images/seda.png);
-	background-position:center; 
-	background-repeat:no-repeat;}
+	background: url(images/seda.png);}
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background: url(images/makiko.png);
-	background-position:center; 
-	background-repeat:no-repeat;
 	}
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: url(images/mehmet.png);
-	background-position:center; 
-	background-repeat:no-repeat;
 	}
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: url(images/ozlem.png);
-	background-position:center; 
-	background-repeat:no-repeat;
 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 0px; }
@@ -359,9 +343,7 @@ hr {
         font-size: 0px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: url(images/fuat.png);
-	background-position:center; 
-	background-repeat:no-repeat;
+    background: url(images/fuat.png);;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
@@ -370,8 +352,6 @@ hr {
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: url(images/pelin.png);
-	background-position:center; 
-	background-repeat:no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
@@ -380,8 +360,6 @@ hr {
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: url(images/nese.png);
-	background-position:center; 
-	background-repeat:no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
@@ -390,8 +368,6 @@ hr {
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: url(images/apo.png);
-	background-position:center; 
-	background-repeat:no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 0px; }
     @media screen and (max-width: 520px) {
@@ -400,10 +376,10 @@ hr {
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 30px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 30x; } }
+        font-size: 0x; } }
 
 @-webkit-keyframes appear {
   0% {
